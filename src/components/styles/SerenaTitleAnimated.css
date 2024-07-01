@@ -1,0 +1,26 @@
+.header-title-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#anim {
+    stroke-dasharray: 919;
+    animation: 10s fillSVG infinite;
+    stroke: var(--primaryTextColor);
+}
+
+@keyframes fillSVG {
+    0% {
+        stroke-dashoffset: 919;
+    }
+    25% {
+        stroke-dashoffset: 0;
+    }
+    75% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: -921;
+    }
+}

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Top from './components/Top';
+import { sections } from './metadata/sections';
+import Lavori from './pages/Lavori';
 
 function App() {
+  const [activeTab, setActiveTab] = useState('lav')
+  console.log('activet', activeTab)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Top onClicked={(id) => { console.log('aaa',id); setActiveTab(id)}}></Top>
+      {activeTab == 'lav' && <Lavori />}
+      {activeTab == 'sta' && <div>statement</div>}
+      {activeTab == 'bio' && <div>biografia</div>}
+      {activeTab == 'did' && <div>didattica</div>}
+      {activeTab == 'sho' && <div>shop</div>}
+      {activeTab == 'con' && <div>contatti</div>}
+
+      
     </div>
   );
 }

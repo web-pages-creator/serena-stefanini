@@ -1,0 +1,8 @@
+.Top {
+  width: 100%;
+  padding: 1% 10%;
+  background-color: var(--primaryBackgroundColor);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,42 @@
+.SmallTop {
+  width: 100%;
+  background-color: var(--primaryBackgroundColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  transform: scale(200%);
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.hamburger:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.body {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec.navbarItem {
+  cursor: pointer;
+  color: var(--primaryTextColor);
+}
+
+.navbarItem:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px var(--primaryTextColor);  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.navbarItem:hover:after { transform: scaleX(1); }
