@@ -1,7 +1,8 @@
 {
   "name": "serena-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://web-pages-creator.github.io/serena-stefanini/",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
@@ -21,8 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

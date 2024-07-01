@@ -9,7 +9,7 @@ import { useRef } from 'react';
 
 function SmallTop(props) {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const btnRef = useRef()
+  const btnRef = useRef(null)
 
   return (
     <div className='SmallTop'>
