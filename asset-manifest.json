@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/serena-stefanini/static/css/main.36f80b85.css",
-    "main.js": "/serena-stefanini/static/js/main.3d54fe76.js",
+    "main.js": "/serena-stefanini/static/js/main.a7586d49.js",
     "static/js/453.08594594.chunk.js": "/serena-stefanini/static/js/453.08594594.chunk.js",
     "static/media/17.png": "/serena-stefanini/static/media/17.9b7191f0d0cc96405656.png",
     "static/media/19.png": "/serena-stefanini/static/media/19.277f753c1762d122f176.png",
@@ -30,11 +30,11 @@
     "static/media/6.JPG": "/serena-stefanini/static/media/6.4467490ecd9a4f22d278.JPG",
     "index.html": "/serena-stefanini/index.html",
     "main.36f80b85.css.map": "/serena-stefanini/static/css/main.36f80b85.css.map",
-    "main.3d54fe76.js.map": "/serena-stefanini/static/js/main.3d54fe76.js.map",
+    "main.a7586d49.js.map": "/serena-stefanini/static/js/main.a7586d49.js.map",
     "453.08594594.chunk.js.map": "/serena-stefanini/static/js/453.08594594.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36f80b85.css",
-    "static/js/main.3d54fe76.js"
+    "static/js/main.a7586d49.js"
   ]
 }
