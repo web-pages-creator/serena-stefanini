@@ -2,7 +2,7 @@
   "name": "serena-website",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://web-pages-creator.github.io/serena-stefanini/",
+  "homepage": "https://web-pages-creator.github.io/serena-stefanini",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
