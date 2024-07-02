@@ -1,0 +1,17 @@
+.CustomInput {
+  width: 100%;
+}
+
+.wrap {
+  position: relative;
+}
+
+.text {
+  width: auto;
+  background-color: var(--primaryBackgroundColor);
+  margin-bottom: 5px;
+}
+
+.inputC:focus + .text {
+  top: 0px;
+}

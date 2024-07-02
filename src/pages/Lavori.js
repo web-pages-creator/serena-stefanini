@@ -31,7 +31,7 @@ function Lavori() {
 
   return (
     <div className='Lavori'>
-      <div className='titoloSezione'></div>
+      <div className='titoloSezione'>Pittura ad olio</div>
       <LavoriSection data={sezione1Formattata} onClicked={(fileNameClicked) => {console.log(fileNameClicked)}}/>
     </div>
   );

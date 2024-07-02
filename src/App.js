@@ -3,6 +3,7 @@ import './App.css';
 import Top from './components/Top';
 import { sections } from './metadata/sections';
 import Lavori from './pages/Lavori';
+import Contatti from './pages/Contatti';
 
 function App() {
   const [activeTab, setActiveTab] = useState('lav')
@@ -15,7 +16,7 @@ function App() {
       {activeTab == 'bio' && <div>biografia</div>}
       {activeTab == 'did' && <div>didattica</div>}
       {activeTab == 'sho' && <div>shop</div>}
-      {activeTab == 'con' && <div>contatti</div>}
+      {activeTab == 'con' && <Contatti />}
 
       
     </div>

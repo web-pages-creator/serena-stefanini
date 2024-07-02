@@ -1,0 +1,7 @@
+.Title {
+  font-size: 4.2vh;
+  margin: 20px 0;
+  color: var(--primaryTextColor);
+  font-weight: bold;
+  width: 100%;
+}

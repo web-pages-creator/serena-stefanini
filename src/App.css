@@ -1,5 +1,6 @@
 :root {
   --primaryTextColor: rgb(88, 88, 88);
+  --primaryTextColorLight: rgb(135, 135, 135);
   --secondaryTextColor: white;
   --primaryBackgroundColor: white;
   --primaryFont: "Roboto", sans-serif;
